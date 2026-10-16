@@ -1,10 +1,8 @@
 import React from 'react';
 import {
-  Film,
   Sparkles,
-  ArrowRight,
 } from 'lucide-react';
-import { CREATIVE_WORK_VIDEOS, getWhatsAppUrl } from '../data/siteData';
+import { CREATIVE_WORK_VIDEOS } from '../data/siteData';
 import { CleanVideoPlayer } from './CleanVideoPlayer';
 
 export const CreativeWorkGallery: React.FC = () => {
@@ -20,32 +18,21 @@ export const CreativeWorkGallery: React.FC = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-5 sm:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
-          <div className="max-w-2xl">
-            <div className="flex items-center gap-3 mb-2.5">
-              <span className="w-8 h-[2px] bg-[#00D2FF] rounded-full" />
-              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#00D2FF]">
-                OUR CREATIVE WORK
-              </span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-              Our Creative <span className="text-[#00D2FF]">Video Gallery</span>
-            </h2>
-            <p className="mt-3 text-base text-slate-300 leading-relaxed">
-              Clean, professional 9:16 vertical videos crafted for Ethiopian businesses on
-              TikTok, Instagram Reels, and Facebook.
-            </p>
+        <div className="max-w-2xl mb-12">
+          <div className="flex items-center gap-3 mb-2.5">
+            <span className="w-8 h-[2px] bg-[#00D2FF] rounded-full" />
+            <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#00D2FF]">
+              OUR CREATIVE WORK
+            </span>
           </div>
-
-          <a
-            href={getWhatsAppUrl('Hello Bright Digitals! I saw your creative video work and want to create video reels for my business.')}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-2.5 text-xs sm:text-sm font-semibold text-[#030D20] bg-gradient-to-r from-[#00E1FF] to-[#00B8FF] hover:from-[#38BDF8] hover:to-[#00D2FF] rounded-full shadow-[0_0_16px_rgba(0,210,255,0.35)] transition-all whitespace-nowrap self-start md:self-end"
-          >
-            <Film className="w-4 h-4" />
-            <span>Request a Video</span>
-          </a>
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
+            Our Creative <span className="text-[#00D2FF]">Video Gallery</span>
+          </h2>
+          <p className="mt-3 text-base text-slate-300 leading-relaxed">
+            High-impact reels and creative short videos designed to Engage your audience,
+            build brand trust, and turn viewers into paying customers across TikTok,
+            Instagram, and Facebook.
+          </p>
         </div>
 
         {/* 9:16 Video Grid (3 balanced vertical cards) */}
@@ -75,22 +62,19 @@ export const CreativeWorkGallery: React.FC = () => {
               <span>Short-Form Video Production</span>
             </div>
             <h3 className="text-xl sm:text-2xl font-bold text-white">
-              Want Similar Creative Video Reels for Your Business?
+              Want Similar Creative Videos for Your Business?
             </h3>
             <p className="mt-2 text-sm text-slate-200 leading-relaxed">
-              We plan, shoot, edit, and caption vertical video content tailored for Addis Ababa
+              We plan, shoot, edit, and caption short video content tailored for Addis Ababa
               and Ethiopian consumer trends.
             </p>
           </div>
 
           <a
-            href={getWhatsAppUrl('Hello Bright Digitals! I want to create video reels like the ones in your creative gallery.')}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-6 py-3.5 text-sm font-semibold text-[#030D20] bg-gradient-to-r from-[#00E1FF] to-[#00B8FF] hover:from-[#38BDF8] hover:to-[#00D2FF] rounded-full shadow-[0_0_20px_rgba(0,210,255,0.4)] transition-all whitespace-nowrap shrink-0 self-start md:self-center"
+            href="#contact"
+            className="inline-flex items-center justify-center px-7 py-3.5 text-sm font-semibold text-[#030D20] bg-gradient-to-r from-[#00E1FF] to-[#00B8FF] hover:from-[#38BDF8] hover:to-[#00D2FF] rounded-full shadow-[0_0_20px_rgba(0,210,255,0.4)] transition-all whitespace-nowrap shrink-0 self-start md:self-center"
           >
-            <span>Start a Video Project</span>
-            <ArrowRight className="w-4 h-4" />
+            <span>Contact Us</span>
           </a>
         </div>
       </div>

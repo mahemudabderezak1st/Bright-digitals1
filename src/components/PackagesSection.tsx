@@ -57,17 +57,11 @@ export const PackagesSection: React.FC = () => {
             Choose Your Growth Plan
           </p>
 
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-none uppercase font-display drop-shadow-[0_0_30px_rgba(0,210,255,0.4)]">
-            TRANSPARENT <span className="text-[#00D2FF]">PACKAGES</span>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#00D2FF] leading-none uppercase font-display drop-shadow-[0_0_30px_rgba(0,210,255,0.4)]">
+            PACKAGES
           </h2>
 
-          <div className="mt-4 flex items-center justify-center gap-3">
-            <span className="h-[1px] w-8 sm:w-16 bg-gradient-to-r from-transparent to-[#00D2FF]" />
-            <p className="text-xs sm:text-sm md:text-base font-bold tracking-wide text-sky-200">
-              “More Engagement • More Followers • More Sales”
-            </p>
-            <span className="h-[1px] w-8 sm:w-16 bg-gradient-to-l from-transparent to-[#00D2FF]" />
-          </div>
+
 
           {/* Value Badges */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 text-xs sm:text-sm font-semibold text-slate-300">

@@ -472,7 +472,7 @@ export const WHO_WE_HELP: BusinessTypeItem[] = [
     name: 'Businesses',
     tagline: 'Neighborhood & city-wide service businesses',
     howWeHelp:
-      'We help local everyday businesses build a clean online presence, establish trust, and attract steady neighborhood and city-wide customers.',
+      'We help local businesses build a clean online presence, establish trust, and attract steady neighborhood and city-wide customers.',
     keyServices: ['Social Media Management', 'Graphic Design', 'Local Ads'],
   },
   {
